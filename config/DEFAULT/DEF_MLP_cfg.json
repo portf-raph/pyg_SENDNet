@@ -1,0 +1,15 @@
+{
+    "in_dim": null,
+    "out_dim": 2,
+    "hid_dim": 512,
+    "num_hid": 3,
+    "dp_cfg": {
+        "skip_first": false,
+        "dropout": 0.5
+    },
+    "bn_cfg": {
+        "use_batchnorm": true,
+        "batchnorm_affine": true
+    },
+    "output_activation": "linear"
+}

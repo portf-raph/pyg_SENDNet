@@ -1,0 +1,29 @@
+{
+    "train": {
+        "batch_size": 64,
+        "shuffle": true,
+        "num_workers": 0,
+        "optimizer": "Adam",
+        "lr": 1e-2,
+        "momentum": 0.9,
+        "wd": 0.0e-4,
+        "lr_decay_steps": [50, 100, 150, 200, 250, 300],
+        "lr_decay": 0.5,
+        "is_resume": false,
+        "resume_model": null,
+        "max_epoch": 150,
+        "valid_epoch": 5,
+        "display_iter": 20,
+        "snapshot_epoch": [100, 200, 300]
+    },
+    "test": {
+        "batch_size": 16,
+        "num_workers": 0,
+        "test_model": "../exp/pyg_SRC/model_snapshot_best.pth"
+    },
+    "use_gpu": true,
+    "gpus": [0],
+    "save_dir": "../exp/pyg_SRC",
+    "seed": 0,
+    "run_id": 1
+}

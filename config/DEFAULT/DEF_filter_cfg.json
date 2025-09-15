@@ -1,0 +1,7 @@
+{
+    "filter_channels": null,
+    "filter_scale": 0.01,
+    "filter_knots": "../data/PROTEINS/pth_STATS/PROTEINS_knots.pth",
+    "filter_degree": 3,
+    "filter_coeffs": null
+}
